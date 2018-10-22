@@ -4,7 +4,7 @@
 #include <locale.h>
 void main ()
 {
-	int a,b,c,d;
+	int a,b,c,d, b2;
 	char f;
 	c = 0;
 	setlocale(LC_ALL, "Russian");
@@ -42,34 +42,34 @@ void main ()
 	}
 	if (a==2)
 	{
-		printf("Загадайте число");
-		b = rand() % 1001;
-		while (1)
+		printf("Загадайте число \n");
+		b = 500;
+		f = '.';
+		while(f != '=')
 		{
-			int b2;
 			c++;
-			printf("Как ваше число относиться к числу %d \n введите <, >, =. \n", b);
+			printf("Как ваше число относиться к числу %d \n Введите знак отношения (>, <, =) \n", b);
 			scanf("%c", &f);
 			switch (f)
 			{
-				case '=':
+			case '>':
+				{
+					b--;
 					break;
-				case '>': 
-					while (b > b2)
-					{
-						b2 = rand() % 1001;	
-					}
-					b = b2;
-				case '<': 
-					while (b < b2)
-					{
-						b2 = rand() % 1001;	
-					}
-					b = b2;
-				default: printf("неверный ввод");
+				}
+			case '<':
+				{
+					b++;
+					break;
+				}
+			default:
+				{
+					printf("Неверный ввод \n");
+					break;
+				}
 			}
 		}
-		printf("Ваше число %d. \n Колличество попыток = %d",b, c);
+		printf("Ваше число %d \n Колличество ходов %d \n", b, c/2);
 		return;
 	}
 }
