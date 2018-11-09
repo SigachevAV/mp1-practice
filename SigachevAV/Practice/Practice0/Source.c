@@ -3,13 +3,13 @@
 #include <locale.h>
 void main()
 {
+	float Xa = 0, Xb = 0, Ya = 0, Yb = 0, Ra = 0, Rb = 0, X, Y, A;
 	setlocale(LC_ALL, "Rus");
-	float Xa = 0, Xb = 0, Ya = 0, Yb = 0, Ra = 0, Rb = 0, X, Y, A; /*Ввод данных*/
 	printf("input 1: ");
-	scanf("%d %d %d", Xa, Ya, Ra);
+	scanf("%d %d %d", &Xa, &Ya, &Ra);
 	printf("\n");
 	printf("input 2: ");
-	scanf("%d %d %d", Xb, Yb, Rb);
+	scanf("%d %d %d", &Xb, &Yb, &Rb);
 	if (Ra <= 0 || Rb <= 0) /*Защита от дурака*/
 	{
 		printf("Неверны ввод");
