@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice1", "Practice1\Prac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice2", "Practice2\Practice2.vcxproj", "{EE261D63-4F9F-4E7A-903B-568FCF77D749}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice3", "Practice3\Practice3.vcxproj", "{2D3E58DB-149F-47D2-8701-51C37D95A396}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -81,6 +83,26 @@ Global
 		{EE261D63-4F9F-4E7A-903B-568FCF77D749}.Release|x86.ActiveCfg = Release|Win32
 		{EE261D63-4F9F-4E7A-903B-568FCF77D749}.Release|x86.Build.0 = Release|Win32
 		{EE261D63-4F9F-4E7A-903B-568FCF77D749}.Release|x86.Deploy.0 = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|Mixed Platforms.Deploy.0 = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|Win32.Build.0 = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|Win32.Deploy.0 = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|x64.ActiveCfg = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|x86.Build.0 = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Debug|x86.Deploy.0 = Debug|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|Mixed Platforms.Deploy.0 = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|Win32.ActiveCfg = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|Win32.Build.0 = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|Win32.Deploy.0 = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|x64.ActiveCfg = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|x86.ActiveCfg = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|x86.Build.0 = Release|Win32
+		{2D3E58DB-149F-47D2-8701-51C37D95A396}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
